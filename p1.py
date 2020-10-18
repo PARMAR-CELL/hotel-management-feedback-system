@@ -32,7 +32,7 @@ def See_rating() :
 def Give_Rating() :   
     print(pd.read_sql_query("select res_name from restaurant"))
     print ('\n please select Restaurant name in which you want to give Rating')
-    A = input("Restaurant")
+    A = input("BarBerry Restaurant")
     while True:
         print('=============================\n')
         print(' Welcome Sir/Madam  \n')
